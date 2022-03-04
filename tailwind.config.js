@@ -2,6 +2,7 @@ module.exports = {
   content: ['./src/**/*.{htm,md,njk}'],
   theme: {
     screens: {
+      '2xs': '360px',
       sm: '640px',
       md: '768px',
       lg: '1024px',
@@ -21,23 +22,21 @@ module.exports = {
       backgroundSize: {
         '1/2': '50%',
       },
+      width: {
+        '15': '60px',
+      },
+      height: {
+        '15': '60px',
+      },
       maxWidth: {
         '1/2': '50%',
       },
       colors: {
         inherit: 'inherit',
-        'cod-gray': '#181818',
-        'medium-purple': '#6B68E0',
-        'medium-purple-2': '#6C6AE4',
-        'seance': '#781493',
-        'seance-2': '#7A1294',
-        'blue-ribbon' : '#4838FF',
-        'electric-violet' : '#B510EF',
-        'electric-violet-2' : '#704BFF',
-        'bright-sun' :'#FFCA42',
-        'silver' : '#CCCCCC',
-        'heliotrope' : '#DC56FF',
-        'mine-shaft' : '#2F2F2F'
+        'mercury':'#E5E5E5',
+        'shark':'#191B20',
+        'tree-poppy':'#F69020',
+        'shuttle-gray' : '#606571'
       },
       gridTemplateRows: {
         'aa1': 'repeat(2, auto) 1fr',

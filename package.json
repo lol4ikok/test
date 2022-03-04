@@ -22,7 +22,6 @@
 		"autoprefixer": "^10.4.2",
 		"clean-css": "^5.2.4",
 		"html-minifier": "^4.0.0",
-		"laravel-mix": "^6.0.41",
 		"lozad": "^1.16.0",
 		"luxon": "^1.25.0",
 		"markdown-it": "^10.0.0",
@@ -39,6 +38,7 @@
 		"uglify-js": "^3.15.1"
 	},
 	"dependencies": {
+		"laravel-mix": "^6.0.43",
 		"tailwindcss-textshadow": "^2.1.3"
 	}
 }
