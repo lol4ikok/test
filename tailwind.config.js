@@ -34,7 +34,8 @@ module.exports = {
       colors: {
         inherit: 'inherit',
         'mercury':'#E5E5E5',
-        'shark':'#191B20',
+        'shark1':'#191B20',
+        'shark2' : '#282B32',
         'tree-poppy':'#F69020',
         'shuttle-gray' : '#606571'
       },
