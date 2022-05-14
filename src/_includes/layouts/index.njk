@@ -15,7 +15,9 @@
 	</head>
 	<body class="">
 
-		{% include "partials/header/header.njk" %}
+		<div class="bg-cover" style="background-image: url(/images/image/texture.jpg);">
+			{% include "partials/header/header.njk" %}
+		</div>
 
 		<main>
 			{{ content | safe }}
